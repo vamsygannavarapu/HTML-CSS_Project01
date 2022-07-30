@@ -1,0 +1,153 @@
+/* * {
+  margin: 10px;
+  font-family: Orbitron;
+}
+.navbar-container {
+  display: inline;
+  width: 100%;
+}
+nav > div {
+  display: inline;
+}
+div > img {
+  display: inline-block;
+}
+.list {
+  list-style-type: none;
+  margin-left: 100px;
+  padding: 0;
+  display: inline-block;
+}
+div:nth-child(2n) {
+  margin-left: 40px;
+  display: inline;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.list-item {
+  display: inline;
+  padding: 10px;
+  float: left;
+}
+.search-icon {
+  display: inline;
+  float: right;
+  margin-right: 150px;
+  position: relative;
+}
+.nav-button {
+  display: inline;
+   float: right; 
+  position: absolute;
+} */
+* {
+  font-family: "Orbiton";
+}
+nav {
+  display: flex;
+}
+.list {
+  display: flex;
+  margin: 10px 20px 50px 100px;
+}
+.list-item {
+  display: flex;
+  margin: 30px 20px 50px 40px;
+  list-style-type: none;
+  font-family: Orbitron;
+  cursor: pointer;
+}
+div > img {
+  margin-top: 30px;
+  margin-left: 40px;
+  display: flex;
+}
+.button-group {
+  display: flex;
+}
+.search-icon {
+  float: right;
+  margin-top: 38px;
+  margin-left: 200px;
+  cursor: pointer;
+}
+.nav-button {
+  float: right;
+  margin-top: 30px;
+  margin-left: 80px;
+  background-color: transparent;
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-size: 15px;
+  cursor: pointer;
+  color: grey;
+}
+div > div > img {
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-top: 0;
+  margin-right: 200px;
+}
+.hero-container {
+  position: relative;
+}
+.square {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 116px;
+  margin-right: 130px;
+  z-index: -1;
+}
+.globe {
+  margin-left: 720px;
+  margin-bottom: 250px;
+}
+.star {
+  float: right;
+  margin-top: 110px;
+}
+h1 {
+  font-weight: 1000;
+  font-size: 50px;
+  font-family: Orbitron;
+}
+p {
+  margin-right: 250px;
+  margin-left: 670px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-family: Poppins;
+}
+.button-email {
+  background-color: transparent;
+  font-family: Orbitron;
+  padding: 8px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 150px;
+}
+.button-join {
+  background-color: black;
+  color: #ffffff;
+  font-family: Orbitron;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+h4 {
+  font-family: Poppins;
+  color: grey;
+  margin-top: 150px;
+  margin-left: 900px;
+}
+.icons {
+  /* display: flex; */
+  display: inline;
+  margin-left: 825px;
+}
+div > span > img {
+  margin-right: 25px;
+}
